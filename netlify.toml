@@ -100,7 +100,7 @@
 # routing internally.
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/home"
   status = 200
 
 [[headers]]
