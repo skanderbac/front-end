@@ -35,12 +35,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\skand\Desktop\front-end" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\skand\Desktop\front-end" />
       <recent name="C:\Users\skand\Desktop\front-end\public" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\skand\Desktop\front-end" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -67,7 +67,7 @@
       <updated>1621350110469</updated>
       <workItem from="1621350115304" duration="1222000" />
       <workItem from="1621374850517" duration="8785000" />
-      <workItem from="1621386067806" duration="280000" />
+      <workItem from="1621386067806" duration="466000" />
     </task>
     <servers />
   </component>
