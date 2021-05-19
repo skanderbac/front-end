@@ -71,7 +71,7 @@ function AddWardrobeLeft() {
 
     const fileSize= (file)=>{
 
-        const url = 'http://127.0.0.1:7000/apisize';
+        const url = 'http://51.38.224.143:9001/apisize';
         const formData = new FormData();
         formData.append('file1',file);
         formData.append('file2',file);
