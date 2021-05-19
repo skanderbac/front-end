@@ -11,3 +11,8 @@
   for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+[[headers]]
+Define which paths this specific [[headers]] block will cover.
+for = “/mywardrobe/*”
+[headers.values]
+Access-Control-Allow-Origin = “**”
