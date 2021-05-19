@@ -1,8 +1,4 @@
-# example netlify.toml
-[build]
-  command = "react-scripts build"
-  functions = "netlify/functions"
-  publish = "build"
+
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
