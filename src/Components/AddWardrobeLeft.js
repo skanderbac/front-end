@@ -62,7 +62,8 @@ function AddWardrobeLeft() {
         formData.append('file',file)
         const config = {
             headers: {
-                'content-type': 'multipart/form-data'
+                'content-type': 'multipart/form-data',
+                "Access-Control-Allow-Origin": "*"
             }
         }
         return  post(url, formData,config)
@@ -78,7 +79,8 @@ function AddWardrobeLeft() {
         formData.append('file3',file);
         const config = {
             headers: {
-                'content-type': 'multipart/form-data'
+                'content-type': 'multipart/form-data',
+                "Access-Control-Allow-Origin": "*"
             }
         }
         console.log("tesst")
