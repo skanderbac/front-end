@@ -57,7 +57,7 @@ function AddWardrobeLeft() {
 
 
     const fileUpload = (file)=>{
-        const url = 'http://127.0.0.1:8000/api/predict/';
+        const url = 'http://51.38.224.143:8000/api/predict/';
         const formData = new FormData();
         formData.append('file',file)
         const config = {
