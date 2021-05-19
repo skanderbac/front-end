@@ -70,7 +70,7 @@ export const affichage = () => async (dispatch) => {
 
 export const affichagePreferences = () => async (dispatch) => {
     try {
-        const { data } = await api.getPreferences("Casual","Women");
+        const { data } = await api.getPreferences("Ethnic","Women");
 
         dispatch(getPreferencesP(data));
         console.log(data)

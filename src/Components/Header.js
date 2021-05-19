@@ -88,15 +88,6 @@ export default function Header(props) {
 
                                     </li>
                                     ):(<h1></h1>)}
-                                {user1 ?(
-                                    <li>
-                                        <a href="/outfits"
-                                           className="sf-with-ul">My Outfits</a>
-
-
-                                    </li>):
-                                (<h1></h1>)
-                                }
 
                                 {user1 ?(
                                     <li>
