@@ -35,6 +35,10 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\skand\Desktop\front-end" />
+      <recent name="C:\Users\skand\Desktop\front-end\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\skand\Desktop\front-end" />
     </key>
@@ -62,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621350110469</updated>
       <workItem from="1621350115304" duration="1222000" />
-      <workItem from="1621374850517" duration="5547000" />
+      <workItem from="1621374850517" duration="6123000" />
     </task>
     <servers />
   </component>
