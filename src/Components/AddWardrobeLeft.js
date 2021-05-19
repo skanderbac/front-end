@@ -15,6 +15,7 @@ function AddWardrobeLeft() {
     const [dress, setdress] = useState({image :"" , description:"",user_id:token,size:"M",type:"Shirt"})
     const [img, setImg] = useState("")
     const [url, setUrl] = useState("")
+    const [type, setType] = useState("")
 
     const submit= ()=> {
         if(  (dress.description==="") || (dress.size==="") || (dress.type==="") ){
@@ -65,9 +66,37 @@ function AddWardrobeLeft() {
                 'content-type': 'multipart/form-data'
             }
         }
-        return  post(url, formData,config)
+        return  post(url, formData,config).then((rep)=>{console.log(getType(rep.data[0]));
+            setdress({ ...dress, type: getType(rep.data[0]) });
+            setType(getType(rep.data[0]));
+        })
     }
 
+
+    const getType= (type)=>{
+        switch(type){
+            case 0:
+                return "T-Shirt"
+            case 1:
+                return "Trouser"
+            case 2:
+                return "Pullover"
+            case 3:
+                return "Dress"
+            case 4:
+                return "Coat"
+            case 5:
+                return "Sandal"
+            case 6:
+                return "Shirt"
+            case 7:
+                return "Sneaker"
+            case 8:
+                return "Bage"
+            default:
+                return "Boot"
+        }
+    }
 
     const fileSize= (file)=>{
 
@@ -94,7 +123,7 @@ function AddWardrobeLeft() {
                 }
                 />
                 <img src={img} />
-
+                <div>Type : {type}</div>
                 <Form.File
                     type="file"
                     multiple={false}
