@@ -63,7 +63,7 @@ function AddWardrobeLeft() {
         const config = {
             headers: {
                 'content-type': 'multipart/form-data',
-                "Access-Control-Allow-Origin": "*"
+                'Access-Control-Allow-Origin': "*"
             }
         }
         return  post(url, formData,config)
