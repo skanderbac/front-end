@@ -96,10 +96,6 @@ function App() {
 
                                     {/*Before Login*/}
                                     <Route
-                                        path="/mywardrobe"
-                                        render={(props) => <MyWardrobe {...props} />}
-                                    ></Route>
-                                    <Route
                                         path="/home"
                                         render={(props) => <Home {...props} />}></Route>
                                     <Route
